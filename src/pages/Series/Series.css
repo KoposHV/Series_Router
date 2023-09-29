@@ -1,0 +1,15 @@
+.series ul {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 15px;
+    padding: 40px;
+  }
+  
+  .series img {
+    width: 100%;
+    filter: grayscale(80%)
+  }
+  
+  .series img:hover{
+    filter: grayscale(0%)
+  }
